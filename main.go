@@ -12,7 +12,7 @@ func main() {
 	db.InitDatabase()
 	// 自動遷移模型
 	db.DB.AutoMigrate(&models.Article{})
-
+	// test commit
 	// 初始化 Gin 路由
 	r := gin.Default()
 
